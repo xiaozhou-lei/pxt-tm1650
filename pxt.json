@@ -1,0 +1,15 @@
+{
+    "name": "TM1650",
+    "version": "1.0.0",
+    "description": "makecode LED Digit Display (TM1650) package for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+		"_locales/zh/TM1650-strings.json"
+    ],
+    "public": true
+}
