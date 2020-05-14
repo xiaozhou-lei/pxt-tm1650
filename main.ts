@@ -144,6 +144,4 @@ namespace TM1650 {
             cmd((dat << 4) | 0x01)
         }
     }
-
-    on();
 }
