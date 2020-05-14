@@ -8,7 +8,7 @@
  * TM1650 digit Display
  */
 //% weight=100 color=#64C800 icon="8" block="TM1650"
-namespace TM1650 {
+namespace TM1650{
 
     let COMMAND_I2C_ADDRESS = 0x24
     let DISPLAY_I2C_ADDRESS = 0x34
@@ -69,21 +69,20 @@ namespace TM1650 {
      * show a digital in given position
      * @param digit is number (0-15) will be shown, eg: 1
      * @param bit is position, eg: 0
-     
-    //% blockId="TM650_DIGIT" block="show digit %num|at %bit"
+     */
+    //% blockId="TM650_DIGIT" block="show digit %num|at %bit" advanced=true
     //% weight=80 blockGap=8
     //% num.max=15 num.min=0
     export function digit(num: number, bit: number) {
         dbuf[bit % 4] = _SEG[num % 16]
         dat(bit, _SEG[num % 16])
     }
-	**/ 
-	
+
     /**
      * show a number in display
      * @param num is number will be shown, eg: 100
      */
-    //% blockId="TM650_SHOW_NUMBER" block="show number %num"
+    //% blockId="TM650_SHOW_NUMBER" block="show number %num" 
     //% weight=100 blockGap=8
     export function showNumber(num: number) {
         if (num < 0) {
@@ -100,8 +99,8 @@ namespace TM1650 {
     /**
      * show a number in hex format
      * @param num is number will be shown, eg: 123
-     
-    //% blockId="TM650_SHOW_HEX_NUMBER" block="show hex number %num"
+     */
+    //% blockId="TM650_SHOW_HEX_NUMBER" block="show hex number %num" advanced=true
     //% weight=90 blockGap=8
     export function showHex(num: number) {
         if (num < 0) {
@@ -114,25 +113,24 @@ namespace TM1650 {
         digit((num >> 4) % 16, 2)
         digit((num >> 8) % 16, 1)
     }
-	**/
-	
+
     /**
      * show Dot Point in given position
      * @param bit is positiion, eg: 0
      * @param show is true/false, eg: true
-     
-    //% blockId="TM650_SHOW_DP" block="show dot point %bit|show %num"
+     */
+    //% blockId="TM650_SHOW_DP" block="show dot point %bit|show %num" advanced=true
     //% weight=80 blockGap=8
     export function showDpAt(bit: number, show: boolean) {
         if (show) dat(bit, dbuf[bit % 4] | 0x80)
         else dat(bit, dbuf[bit % 4] & 0x7F)
     }
-	**/
+
     /**
      * set display intensity
      * @param dat is intensity of the display, eg: 3
      */
-    //% blockId="TM650_INTENSITY" block="set intensity %dat"
+    //% blockId="TM650_INTENSITY" block="set intensity %dat" 
     //% weight=70 blockGap=8
     export function setIntensity(dat: number) {
         if ((dat < 0) || (dat > 8))
@@ -144,4 +142,6 @@ namespace TM1650 {
             cmd((dat << 4) | 0x01)
         }
     }
+
+    on();
 }
