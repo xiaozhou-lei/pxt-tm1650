@@ -8,7 +8,8 @@
     },
     "files": [
         "README.md",
-        "main.ts",
+        "tm1637.ts",
+		"tm1650.ts",
 		"_locales/zh/TM1650-strings.json"
     ],
     "public": true
