@@ -1,7 +1,7 @@
 /**
  * Four Digit Display
  */
-//% weight=100 color=#50A820 icon="8"
+//% weight=100 color=#50A820 icon="8" block="TM1637"
 namespace TM1637 {
     let TM1637_CMD1 = 0x40;
     let TM1637_CMD2 = 0xC0;
