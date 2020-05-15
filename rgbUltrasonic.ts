@@ -41,7 +41,7 @@ Rotate = 0x02,
 Flash = 0x03
 }
 
-//% color="#EE6A50" weight=10 icon="\uf085"
+//% color="#EE6A50" weight=10 icon="\uf085" block="rgbUltrasonic"
 namespace rgbUltrasonic{
 	
 	const LED0_ON_L = 0x06
