@@ -10,6 +10,7 @@
         "README.md",
         "tm1637.ts",
 		"tm1650.ts",
+		"max7219.ts",
 		"_locales/zh/TM1650-strings.json"
     ],
     "public": true

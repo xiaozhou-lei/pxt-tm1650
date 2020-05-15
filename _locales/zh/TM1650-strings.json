@@ -12,7 +12,15 @@
     "TM1637.TM1637LEDs.clear|block": "清除显示 %tm",
 	"TM1637.TM1637LEDs.on|block": "打开显示 %tm",
 	"TM1637.TM1637LEDs.off|block": "关闭显示 %tm",
-	"TM1637.create|block": "CLK引脚 %clk|DIO引脚 %dio|亮度 %intensity|LED数量(1到4) %count"
+	"TM1637.create|block": "CLK引脚 %clk|DIO引脚 %dio|亮度 %intensity|LED数量(1到4) %count",
+	
+	"max7219|block": "8x8点阵屏",
+	"max7219.setup|block": "初始化|矩阵数(一般为1) $num|CS引脚 $cs|DIN引脚 $mosi|CLK引脚 $sck|MISO引脚(已禁用) $miso",
+	"max7219.scrollText|block": "滚动字符 $text|延时(ms) $delay|最后停留时间(ms) $endDelay",
+	"max7219.brightnessAll|block": "设置亮度 $level",
+	"max7219.fillAll|block": "全屏点亮",
+	"max7219.clearAll|block": "全屏熄灭",
+	"max7219.randomizeAll|block": "随机点亮"
 
 	
 }
