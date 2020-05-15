@@ -11,7 +11,18 @@
         "tm1637.ts",
 		"tm1650.ts",
 		"max7219.ts",
-		"_locales/zh/emakefun-strings.json"
+		"ttp229.ts",
+		"rgbUltrasonic.ts",
+		"shims.d.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+		"_locales/zh/emakefun-strings.json",
+		"ir.ts"
     ],
     "public": true
 }
