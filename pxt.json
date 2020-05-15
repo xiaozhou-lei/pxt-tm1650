@@ -4,7 +4,13 @@
     "description": "",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+		"rgbUltrasonic": "github:gchen1996/pxt-rgbUltrasonic",
+		"ttp229": "github:gchen1996/pxt-ttp229",
+		"tm1637": "github:gchen1996/pxt-tm1637",
+		"max7219": "github:gchen1996/pxt-max7219",
+		"irreceive": "github:gchen1996/pxt-irreceive",
+		"IR": "github:gchen1996/pxt-IR"
     },
     "files": [
         "README.md",
