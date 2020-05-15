@@ -1,6 +1,6 @@
-# emakefun 
+# tm1650 
 
-这是emakefun公司的PH2.0套件的积木块
+1650数码管
 
 ## License
 
@@ -12,6 +12,6 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-github:gchen1996/emakefun_PH2.0
+github:gchen1996/tm1650
 ```
 
