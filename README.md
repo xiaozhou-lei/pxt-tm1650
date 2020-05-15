@@ -1,6 +1,6 @@
 # emakefun 
 
-1650
+这是emakefun公司的PH2.0套件的积木块
 
 ## License
 
@@ -12,5 +12,6 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-TM1650=github:gchen1996/pxt-tm1650
+github:gchen1996/emakefun_PH2.0
 ```
+
