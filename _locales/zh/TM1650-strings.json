@@ -1,5 +1,5 @@
 {
-    "TM1650|block": "1650数码管",
+    "TM1650|block": "TM1650数码管",
     "TM1650.SetIntensity|block": "%tm|设置亮度 %dat",
     "TM1650.ShowNumber|block": "%tm|显示数字 %num",
     "TM1650.Clear|block": "清除显示",
