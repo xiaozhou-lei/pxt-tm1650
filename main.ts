@@ -83,7 +83,7 @@ namespace TM1650{
      * @param num is number will be shown, eg: 100
      */
     //% blockId="TM650_SHOW_NUMBER" block="show number %num" 
-    //% weight=100 blockGap=8
+    //% weight=100 blockGap=899
     export function showNumber(num: number) {
         if (num < 0) {
             dat(0, 0x40) // '-'
