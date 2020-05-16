@@ -36,7 +36,7 @@ namespace TM1650{
     /**
      * turn on display
      */
-    //% blockId="TM650_ON" block="turn on display"
+    //% blockId="TM1650_ON" block="turn on display"
     //% weight=50 blockGap=8
     export function on() {
         cmd(_intensity * 16 + 1)
@@ -45,7 +45,7 @@ namespace TM1650{
     /**
      * turn off display
      */
-    //% blockId="TM650_OFF" block="turn off display"
+    //% blockId="TM1650_OFF" block="turn off display"
     //% weight=50 blockGap=8
     export function off() {
         _intensity = 0
@@ -55,7 +55,7 @@ namespace TM1650{
     /**
      * clear display content
      */
-    //% blockId="TM650_CLEAR" block="clear display"
+    //% blockId="TM1650_CLEAR" block="clear display"
     //% weight=40 blockGap=8
     export function clear() {
         dat(0, 0)
@@ -70,7 +70,7 @@ namespace TM1650{
      * @param digit is number (0-15) will be shown, eg: 1
      * @param bit is position, eg: 0
      */
-    //% blockId="TM650_DIGIT" block="show digit %num|at %bit" advanced=true
+    //% blockId="TM1650_DIGIT" block="show digit %num|at %bit" advanced=true
     //% weight=80 blockGap=8
     //% num.max=15 num.min=0
     export function digit(num: number, bit: number) {
@@ -82,7 +82,7 @@ namespace TM1650{
      * show a number in display
      * @param num is number will be shown, eg: 100
      */
-    //% blockId="TM650_SHOW_NUMBER" block="show number %num" 
+    //% blockId="TM1650_SHOW_NUMBER" block="show number %num" 
     //% weight=100 blockGap=8
     export function ShowNumber(num: number) {
         if (num < 0) {
@@ -100,7 +100,7 @@ namespace TM1650{
      * show a number in hex format
      * @param num is number will be shown, eg: 123
      */
-    //% blockId="TM650_SHOW_HEX_NUMBER" block="show hex number %num" advanced=true
+    //% blockId="TM1650_SHOW_HEX_NUMBER" block="show hex number %num" advanced=true
     //% weight=90 blockGap=8
     export function showHex(num: number) {
         if (num < 0) {
@@ -119,7 +119,7 @@ namespace TM1650{
      * @param bit is positiion, eg: 0
      * @param show is true/false, eg: true
      */
-    //% blockId="TM650_SHOW_DP" block="show dot point %bit|show %num" advanced=true
+    //% blockId="TM1650_SHOW_DP" block="show dot point %bit|show %num" advanced=true
     //% weight=80 blockGap=8
     export function showDpAt(bit: number, show: boolean) {
         if (show) dat(bit, dbuf[bit % 4] | 0x80)
@@ -130,7 +130,7 @@ namespace TM1650{
      * set display intensity
      * @param dat is intensity of the display, eg: 3
      */
-    //% blockId="TM650_INTENSITY" block="set intensity %dat" 
+    //% blockId="TM1650_INTENSITY" block="set intensity %dat" 
     //% weight=70 blockGap=8
     export function setIntensity(dat: number) {
         if ((dat < 0) || (dat > 8))
