@@ -1,7 +1,7 @@
 {
     "TM1650|block": "1650数码管",
     "TM1650.setIntensity|block": "%tm|设置亮度 %dat",
-    "TM1650.TM650_SHOW_NUMBER|block": "%tm|显示数字 %num",
+    "TM1650.showNumber|block": "%tm|显示数字 %num",
     "TM1650.clear|block": "清除显示",
 	"TM1650.on|block": "打开显示",
 	"TM1650.off|block": "关闭显示"
