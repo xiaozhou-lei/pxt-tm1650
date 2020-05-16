@@ -14,7 +14,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/ttp229-strings.json"
+        "_locales/zh/TM1650-strings.json"
     ],
     "public": true
 }
