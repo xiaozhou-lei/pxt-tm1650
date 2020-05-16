@@ -1,15 +1,20 @@
+
+
+
+
 {
-    "name": "tm1650",
-    "version": "1.0.0",
-    "description": "",
+    "name": "ttp229",
+    "version": "0.0.1",
+    "description": "触摸键盘积木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
+
     },
     "files": [
         "README.md",
         "main.ts",
-		"_locales/zh/TM1650-strings.json"
+        "_locales/zh/ttp229-strings.json"
     ],
     "public": true
 }
