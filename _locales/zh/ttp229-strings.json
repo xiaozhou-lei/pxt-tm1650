@@ -1,6 +1,8 @@
-
-
 {
-    "ttp229|block": "触摸键盘",
-    "ttp229.GetKeyCode|block": "触摸键盘|SDO引脚 %SDO|SCL引脚 %SCL"
+    "TM1650|block": "1650数码管",
+    "TM1650.SetIntensity|block": "%tm|设置亮度 %dat",
+    "TM1650.ShowNumber|block": "%tm|显示数字 %num",
+    "TM1650.Clear|block": "清除显示",
+	"TM1650.On|block": "打开显示",
+	"TM1650.Off|block": "关闭显示"
 }
