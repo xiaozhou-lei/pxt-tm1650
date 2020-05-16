@@ -12,6 +12,6 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-github:gchen1996/tm1650
+github:xiaozhou-lei/tm1650
 ```
 
