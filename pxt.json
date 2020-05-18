@@ -1,5 +1,5 @@
 {
-    "name": "TM1650",
+    "name": "tm1650",
     "version": "1.0.0",
     "description": "",
     "license": "MIT",
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-		"_locales/zh/TM1650-strings.json"
+		"_locales/zh/tm1650-strings.json"
     ],
     "public": true
 }

@@ -6,6 +6,7 @@
 
 /**
  * TM1650 digit Display
+ * git@github.com:xiaozhou-lei/pxt-tm1650.git
  */
 //% weight=100 color=#64C800  
 //%block="tm1650"
