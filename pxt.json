@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-		"TM1650-strings.json"
+		"_locales/zh/TM1650-strings.json"
     ],
     "public": true
 }
